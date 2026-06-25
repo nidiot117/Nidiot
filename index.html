@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nidiot</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+</head>
+<body>
+  <main class="stage">
+
+    <!-- 메인 플레이 영역 -->
+    <div id="toyWrap" class="toy-wrap">
+      <!-- 시작 안내 문구 -->
+      <div id="guideMessage" class="guide-message">
+        나이스를 혼내자<br />
+      </div>
+
+      <!-- 메인 이미지 -->
+      <img id="mainImage" class="main-image" src="images/img0.png" alt="" />
+
+      <!-- 닿은 횟수 카운터 -->
+      <div id="hitCounter" class="hit-counter hidden">
+        0번 혼냈다!
+      </div>
+
+      <!-- 마일스톤 문구 -->
+      <div id="milestoneMessage" class="milestone-message hidden"></div>
+    </div>
+
+    <!-- 엔딩 화면 -->
+    <div id="endingScreen" class="ending-screen hidden">
+      <div id="endingTitle" class="ending-title">다 혼냈다!</div>
+    </div>
+
+    <!-- 따라다니는 커서 -->
+    <div id="cursor" class="cursor">
+      <img src="images/cursor.png" alt="" />
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
