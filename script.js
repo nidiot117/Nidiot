@@ -43,7 +43,7 @@ const ENDING_IMAGE_POOL = [
 ];
 
 // 커서 따라오는 속도
-const FOLLOW_SPEED = 0.25;
+const FOLLOW_SPEED = 0.4;
 
 // 충돌 판정 여유
 const HIT_PADDING = 10;
